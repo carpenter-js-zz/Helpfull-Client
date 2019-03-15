@@ -12,9 +12,16 @@ Helpful brings community organizations and volunteers together. If you want to m
 
 # Screenshots
 
+#### Landing page
 <img alt='main' src='https://user-images.githubusercontent.com/41643910/54459957-c6727100-472d-11e9-8dd9-7dfca232a2fa.PNG' />
+
+#### Dashboard
+
 <img alt='dashboard' src='https://user-images.githubusercontent.com/41643910/54459962-ca05f800-472d-11e9-931e-0885c7c9a42a.PNG' />
-<img alt='search' src='https://user-images.githubusercontent.com/41643910/54459964-cb372500-472d-11e9-9918-5fee48b0561c.PNG' />
+
+#### Public Event
+
+<img alt='publicevent' src='https://user-images.githubusercontent.com/41643910/54459964-cb372500-472d-11e9-9918-5fee48b0561c.PNG' />
 
 
 ## MVP (v.1.0.0)
@@ -71,7 +78,7 @@ Helpful brings community organizations and volunteers together. If you want to m
 #### API
 
 ```
-/apigit
+/api
 ├── /users
 │   └── GET
 │       └── /
