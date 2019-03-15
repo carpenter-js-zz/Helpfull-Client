@@ -132,7 +132,7 @@ export default function UserCanRateOrg(props) {
                                         <option defaultValue='5' />
                                     </ratinglist> */}
                 {/* </div> */}
-                <button className='follow-button' type='submit'>Submit your rating</button>
+                <button className='follow-button event-public-rsvp-button' type='submit'>Submit your rating</button>
             </form>
         </React.Fragment>
     );

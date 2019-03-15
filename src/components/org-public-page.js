@@ -41,7 +41,7 @@ export default function OrgPublicPage(props) {
         if (!following) {
             return (
                 <button
-                    className='follow-button button-center'
+                    className='follow-button button-center event-public-rsvp-button'
                     onClick={() => followOrg()}>
                     Follow
                 </button>
@@ -49,7 +49,7 @@ export default function OrgPublicPage(props) {
         } else if (following) {
             return (
                 <button
-                    className='unfollow-button button-center'
+                    className='unfollow-button button-center event-public-rsvp-button'
                     onClick={() => unFollowOrg()}>
                     Unfollow
                 </button>
