@@ -12,9 +12,10 @@ Helpful brings community organizations and volunteers together. If you want to m
 
 # Screenshots
 
-![Screenshot](./html-wireframes/Capture.png "Screenshot")  
-![Screenshot](./html-wireframes/Capture1.png "Screenshot 2")  
-![Screenshot](./html-wireframes/Capture2.png "Screenshot 3")
+<img alt='main' src='https://user-images.githubusercontent.com/41643910/54459957-c6727100-472d-11e9-8dd9-7dfca232a2fa.PNG' />
+<img alt='dashboard' src='https://user-images.githubusercontent.com/41643910/54459962-ca05f800-472d-11e9-931e-0885c7c9a42a.PNG' />
+<img alt='search' src='https://user-images.githubusercontent.com/41643910/54459964-cb372500-472d-11e9-9918-5fee48b0561c.PNG' />
+
 
 ## MVP (v.1.0.0)
 
@@ -62,22 +63,15 @@ Helpful brings community organizations and volunteers together. If you want to m
 #### Team
 
 -   **[Bryan Johnson](https://github.com/Fantosism)** - Marketing Lead
--   **[Michael McKay](https://github.com/mamckay)** - Product Manager
+-   **[Michael McKay](https://github.com/mamckay)** - Project Manager
 -   **[Codey Worley](https://github.com/CodeyWorley)** - QA Lead
--   **[Barrett Carpenter](https://github.com/carpenter-js)** - Project Manager
+-   **[Barrett Carpenter](https://github.com/carpenter-js)** - Product Manager
 -   **[Joaquin Fox](https://github.com/joaquinfox)** - Design Lead
-
-#### Wireframes
-
--   [Index](./html-wireframes/index.html)
--   [Organization](./html-wireframes/organization.html)
--   [Search](./html-wireframes/search.html)
--   [Dashboard](./html-wireframes/dashboard.html)
 
 #### API
 
 ```
-/api
+/apigit
 ├── /users
 │   └── GET
 │       └── /
