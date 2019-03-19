@@ -32,6 +32,10 @@ nav ul a {
 
 /* END CSS RESET */
 
+.nav-tag{
+    font-size: 1vw;
+}
+
 .sidenav-trigger {
     position: absolute;
 }

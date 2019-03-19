@@ -34,12 +34,15 @@ i.material-icons {
 }
 
 .dashboard-event-card{
-    border: 2px solid orange;
-    margin: 0 0 3% 0;
+    display:flex;
+    border: 2px solid black;
+    margin: 0 0 1% 0;
     padding: 15px;
 }
 
-.event-card-content img{
+.dashboard-event-card img{
+    padding-right: 20px;
+    margin: 0 5% 0 0;
     width: 15vw;
     height: 10vw;
 }

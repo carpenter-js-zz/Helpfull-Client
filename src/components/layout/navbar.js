@@ -12,6 +12,7 @@ const NavBar = props => {
             <ul>
                 <li>
                     <a
+                        className='nav-tag'
                         href='#dashboard'
                         onClick={() => props.history.push("/dashboard")}>
                         Dashboard
@@ -29,6 +30,7 @@ const NavBar = props => {
 
                 <li>
                     <a
+                        className='nav-tag'
                         href='#createorganization'
                         onClick={() => props.history.push("/createorgform")}>
                         Create Org
@@ -46,6 +48,7 @@ const NavBar = props => {
 
                 <li>
                     <a
+                        className='nav-tag'
                         href='/createdorgs'
                         onClick={() => props.history.push("/createdorgs")}>
                         My Orgs
@@ -54,6 +57,7 @@ const NavBar = props => {
 
                 <li>
                     <a
+                        className='nav-tag'
                         href='#followedorganizations'
                         onClick={() => props.history.push("/followedorgs")}>
                         Followed Orgs
@@ -61,6 +65,7 @@ const NavBar = props => {
                 </li>
                 <li>
                     <a
+                        className='nav-tag'
                         href='#search'
                         onClick={() => props.history.push("/search")}>
                         Search
@@ -69,6 +74,7 @@ const NavBar = props => {
 
                 <li>
                     <a
+                        className='nav-tag'
                         href='#logout'
                         onClick={() => logoutUser()}>
                         Logout
@@ -96,7 +102,7 @@ const NavBar = props => {
         await localStorage.removeItem("jwtToken");
         props.history.push("/");
     };
-    
+
     return (
         <React.Fragment>
             <section className="header-container">
@@ -141,15 +147,15 @@ const NavBar = props => {
             </div> */}
 
             <ul id='mySidenav' className={navClass}>
-                
-                <a href="#closemenu" className="closebtn" 
+
+                <a href="#closemenu" className="closebtn"
                     onClick={e => {
                         e.preventDefault();
                         setNavClass("false");
                     }}
                 >
-                &times;</a>
-        
+                    &times;</a>
+
                 <li>
                     <a
                         href='#dashboard'
@@ -228,7 +234,7 @@ const NavBar = props => {
                         Logout
                     </a>
                 </li>
-            </ul> 
+            </ul>
         </React.Fragment>
     );
 };
