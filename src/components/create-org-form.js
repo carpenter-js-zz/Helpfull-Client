@@ -48,7 +48,7 @@ export default function CreateOrgForm() {
         );
     }
     return (
-        <div className='create-org-form-container'>
+        <section className='create-org-form-container'>
             <form
                 action='submit'
                 className='create-org-form'
@@ -56,82 +56,82 @@ export default function CreateOrgForm() {
                 onSubmit={e => handleSubmit(e)}>
                 <h1>Create a new Organization</h1>
                 {/* <div class='form-row'> */}
-                    <label htmlFor='org-name'></label>
-                    <input
+                <label htmlFor='org-name'></label>
+                <input
                     className='org-form-center-text'
-                        required
-                        type='text'
-                        placeholder='Organization name'
-                        onChange={e =>
-                            setFormData({ ...formData, name: e.target.value })
-                        }
-                    />
+                    required
+                    type='text'
+                    placeholder='Organization name'
+                    onChange={e =>
+                        setFormData({ ...formData, name: e.target.value })
+                    }
+                />
                 {/* </div> */}
                 {/* <div class='form-row'> */}
-                    <label htmlFor='org-description'></label>
-                    <textarea
-                        required
-                        className="creatOrgForm-desc org-form-center-text"
-                        type='text'
-                        form='createOrgForm'
-                        rows='5'
-                        placeholder='Describe the organization'
-                        onChange={e =>
-                            setFormData({
-                                ...formData,
-                                description: e.target.value,
-                            })
-                        }
-                    />
+                <label htmlFor='org-description'></label>
+                <textarea
+                    required
+                    className="creatOrgForm-desc org-form-center-text"
+                    type='text'
+                    form='createOrgForm'
+                    rows='5'
+                    placeholder='Describe the organization'
+                    onChange={e =>
+                        setFormData({
+                            ...formData,
+                            description: e.target.value,
+                        })
+                    }
+                />
                 {/* </div> */}
                 {/* <div class='form-row'> */}
-                    <label htmlFor='org-location'></label>
-                    <input
-                      className='org-form-center-text'
-                        required
-                        type='textarea'
-                        placeholder='Location'
-                        onChange={e =>
-                            setFormData({
-                                ...formData,
-                                location: e.target.value,
-                            })
-                        }
-                    />
-                {/* </div> */}
-
-                {/* <div class='form-row'> */}
-                    <label htmlFor='org-contact'></label>
-                    <input
-                      className='org-form-center-text'
-                        required
-                        type='text'
-                        placeholder='Contact info'
-                        onChange={e =>
-                            setFormData({
-                                ...formData,
-                                contact: e.target.value,
-                            })
-                        }
-                    />
+                <label htmlFor='org-location'></label>
+                <input
+                    className='org-form-center-text'
+                    required
+                    type='textarea'
+                    placeholder='Location'
+                    onChange={e =>
+                        setFormData({
+                            ...formData,
+                            location: e.target.value,
+                        })
+                    }
+                />
                 {/* </div> */}
 
                 {/* <div class='form-row'> */}
-                    <label htmlFor='orgImg'></label>
-                    <input
-                      className='org-form-center-text'
-                        type='text'
-                        placeholder='Paste Image URL here!'
-                        onChange={e =>
-                            setFormData({ ...formData, imgUrl: e.target.value })
-                        }
-                    />
+                <label htmlFor='org-contact'></label>
+                <input
+                    className='org-form-center-text'
+                    required
+                    type='text'
+                    placeholder='Contact info'
+                    onChange={e =>
+                        setFormData({
+                            ...formData,
+                            contact: e.target.value,
+                        })
+                    }
+                />
+                {/* </div> */}
+
+                {/* <div class='form-row'> */}
+                <label htmlFor='orgImg'></label>
+                <input
+                    className='org-form-center-text'
+                    type='text'
+                    placeholder='Paste Image URL here!'
+                    onChange={e =>
+                        setFormData({ ...formData, imgUrl: e.target.value })
+                    }
+                />
                 {/* </div> */}
 
                 <button className='create-org-form-button' type='submit'>
                     Submit
                 </button>
             </form>
-        </div>
+        </section>
     );
 }

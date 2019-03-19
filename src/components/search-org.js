@@ -10,7 +10,7 @@ export default function SearchOrg(props) {
             const linkUrl = `/organization/${org.id}`;
             return (
                 <Link key={index} to={linkUrl}>
-                    <div className='card'>
+                    <section className='card'>
                         <img className='search-img' alt='' src={org.imgUrl}></img>
                         <div className='search-column'>
                             <div>
@@ -23,13 +23,13 @@ export default function SearchOrg(props) {
                                 <span><span>Contact us:</span> {org.contact}</span>
                             </div>
                         </div>
-                    </div>
+                    </section>
                 </Link>
             );
         });
 
         return (
-            <div>
+            <section>
                 <InitialMap
                     location={props.location}
                     markers={props.orgs}
@@ -40,11 +40,11 @@ export default function SearchOrg(props) {
                     mapElement={<div style={{ height: `100%` }} />}
                 />
                 <h3>{listNames}</h3>
-            </div>
+            </section>
         );
     } else {
         return (
-            <div>
+            <section>
                 <LoadingMap
                     location={{ lat: -25.363, lng: 131.044 }}
                     isMarkerShown
@@ -53,7 +53,7 @@ export default function SearchOrg(props) {
                     containerElement={<div style={{ height: `400px` }} />}
                     mapElement={<div style={{ height: `100%` }} />}
                 />
-            </div>
+            </section>
         );
     }
 

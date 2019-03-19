@@ -48,7 +48,7 @@ export default function CreateMeetup() {
                 <fieldset>
                     <legend>Create a Meetup</legend>
 
-                    <div className='create-org-row'>
+                    <section className='create-org-row'>
                         <label htmlFor='org-name'>Name</label>
                         <input
                             type='text'
@@ -60,9 +60,9 @@ export default function CreateMeetup() {
                                 })
                             }
                         />
-                    </div>
+                    </section>
 
-                    <div className='create-org-row'>
+                    <section className='create-org-row'>
                         <label htmlFor='org-description'>Description</label>
                         <textarea
                             type='text'
@@ -76,9 +76,9 @@ export default function CreateMeetup() {
                                 })
                             }
                         />
-                    </div>
+                    </section>
 
-                    <div className='create-org-row'>
+                    <section className='create-org-row'>
                         <label htmlFor='org-location'>Location</label>
                         <input
                             type='textarea'
@@ -90,9 +90,9 @@ export default function CreateMeetup() {
                                 })
                             }
                         />
-                    </div>
+                    </section>
 
-                    <div className='create-org-row'>
+                    <section className='create-org-row'>
                         <label htmlFor='org-contact'>Contact</label>
                         <input
                             type='text'
@@ -104,9 +104,9 @@ export default function CreateMeetup() {
                                 })
                             }
                         />
-                    </div>
+                    </section>
 
-                    <div className='create-org-row'>
+                    <section className='create-org-row'>
                         <label htmlFor='orgImg'>Image</label>
                         <input
                             type='text'
@@ -118,9 +118,9 @@ export default function CreateMeetup() {
                                 })
                             }
                         />
-                    </div>
+                    </section>
 
-                    <div className='create-org-row'>
+                    <section className='create-org-row'>
                         <label htmlFor='orgImg'>Date</label>
                         <input
                             type='date'
@@ -131,7 +131,7 @@ export default function CreateMeetup() {
                                 })
                             }
                         />
-                    </div>
+                    </section>
 
                     <button type='submit'>Submit</button>
                 </fieldset>

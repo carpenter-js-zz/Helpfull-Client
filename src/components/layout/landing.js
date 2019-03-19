@@ -11,14 +11,14 @@ const LandingPage = props => {
             render={({ history }) => (
                 <section >
                     <main className='landing-page-main'>
-                        <div className='text-box'>
+                        <header className='text-box'>
                             <span className='text-box-span'>
                                 Helpfull is where communities come together.
                             </span>
                             <span className='text-box-span'>
                                 Help. Do good. Make friends.
                             </span>
-                        </div>
+                        </header>
 
                         <form className='landing-page-form' action=''>
                             <button

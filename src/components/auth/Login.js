@@ -48,53 +48,53 @@ const Login = () => {
             render={({ history }) => (
 
 
-                <div className='login-flex'>
+                <section className='login-flex'>
                     <div className=''>
                         <Link to='/' className=''>
                             <i className='material-icons left'>keyboard_backspace</i>
                             Back to home
                             </Link>
-                            <div className=''>
-                                <h4>Login below</h4>
-                                <p className='grey-text text-darken-1'>
-                                    Don't have an account?{" "}
-                                    <Link className="register" to='/register'>Register</Link>
-                                </p>
-                            </div>
-                            <form
-                                className='login-form'
-                                noValidate
-                                onSubmit={e => e.preventDefault()}>
-                            
-                                    <label className="emailLabel" htmlFor='email'>
-                                    </label>
-                                    <input
-                                        id='email'
-                                        type='text'
-                                        placeholder='Username'
-                                        onChange={e => setUser(e.target.value)}
-                                    />
-                              
-                                    <label className="passwordLabel" htmlFor='password'></label>
-                                    <input
-                                        id='password'
-                                        type='password'
-                                        placeholder='Password'
-                                        onChange={e =>
-                                            setPassword(e.target.value)
-                                        }
-                                    />
-                             
-                                    <button
-                                        onClick={() => loginUser(history)}
-                                        type='submit'
-                                        className='login-form-submit-button'>
-                                        Log In
+                        <div className=''>
+                            <h4>Login below</h4>
+                            <p className='grey-text text-darken-1'>
+                                Don't have an account?{" "}
+                                <Link className="register" to='/register'>Register</Link>
+                            </p>
+                        </div>
+                        <form
+                            className='login-form'
+                            noValidate
+                            onSubmit={e => e.preventDefault()}>
+
+                            <label className="emailLabel" htmlFor='email'>
+                            </label>
+                            <input
+                                id='email'
+                                type='text'
+                                placeholder='Username'
+                                onChange={e => setUser(e.target.value)}
+                            />
+
+                            <label className="passwordLabel" htmlFor='password'></label>
+                            <input
+                                id='password'
+                                type='password'
+                                placeholder='Password'
+                                onChange={e =>
+                                    setPassword(e.target.value)
+                                }
+                            />
+
+                            <button
+                                onClick={() => loginUser(history)}
+                                type='submit'
+                                className='login-form-submit-button'>
+                                Log In
                                     </button>
 
                         </form>
                     </div>
-                </div>
+                </section>
 
 
             )}

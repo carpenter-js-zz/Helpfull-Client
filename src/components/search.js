@@ -121,7 +121,7 @@ export default function Search(props) {
         console.log(orgs);
         console.log(events);
         return (
-            <div className='container-search'>
+            <section className='container-search'>
                 <form
                     onSubmit={onSubmit}
                     action='submit'
@@ -154,7 +154,7 @@ export default function Search(props) {
                 </form>
                 <div class='search-results' />
                 <div class='blocker'>{component}</div>
-            </div>
+            </section>
         );
     }
 }

@@ -5,7 +5,7 @@ import '../stylesheets/dashboard-create-event.css';
 
 export default function OrgDashboardAddUser() {
     return (
-        <div className='create-event-form'>
+        <section className='create-event-form'>
             <form action='submit'>
                 <fieldset>
                     <legend>Add User Roles</legend>
@@ -27,6 +27,6 @@ export default function OrgDashboardAddUser() {
                     </div>
                 </fieldset>
             </form>
-        </div>
+        </section>
     );
 }

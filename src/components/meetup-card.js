@@ -8,10 +8,10 @@ export default function MeetupCard(props) {
   if (!props.event) {
     return null;
   }
-  
+
   return (
     <Link to={linkUrl}>
-      <div className="card blue-grey darken-1">
+      <section className="card blue-grey darken-1">
         <div className="card-content white-text">
           <span className="card-title">{props.event.name}</span>
           <p>{props.event.description}</p>
@@ -21,7 +21,7 @@ export default function MeetupCard(props) {
           <span>{props.event.location}</span>
           <span>{props.event.contact}</span>
         </div>
-      </div>
+      </section>
     </Link>
   );
 }

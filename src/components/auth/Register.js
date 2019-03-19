@@ -36,7 +36,7 @@ const Register = () => {
     return (
         <Route
             render={({ history }) => (
-                <div className='registration-container'>
+                <section className='registration-container'>
                     <div className='registraion-flex' >
                         <div className=''>
 
@@ -46,11 +46,11 @@ const Register = () => {
                                 </i>
                                 Back to home
                             </Link>
-                                <h4>Register below</h4>
-                                <p className='1'>
-                                    Already have an account?{" "}
-                                    <Link className="loginLink" to='/login'>Log In</Link>
-                                </p>
+                            <h4>Register below</h4>
+                            <p className='1'>
+                                Already have an account?{" "}
+                                <Link className="loginLink" to='/login'>Log In</Link>
+                            </p>
                             <form
                                 className='registration-form'
                                 noValidate
@@ -111,7 +111,7 @@ const Register = () => {
                         </div>
 
                     </div>
-                </div>
+                </section>
 
             )}
         />

@@ -22,7 +22,7 @@ export default function OrganizationCard(props) {
     }
 
     return (
-        <div className="org-card">
+        <section className="org-card">
             <Link to={link}>
                 <h3>{props.org.name}</h3>
             </Link>
@@ -43,6 +43,6 @@ export default function OrganizationCard(props) {
                     {props.org.contact}
                 </p>
             </div>
-        </div>
+        </section>
     );
 }

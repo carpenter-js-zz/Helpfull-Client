@@ -4,7 +4,7 @@ import "../stylesheets/org-dashboard-styles/eventcard.css";
 
 export default function OrgEventCard() {
     return (
-        <div>
+        <section>
             <div className='event-card'>
                 Name: This is a Group
                 <div className='org-event-description'>
@@ -39,6 +39,6 @@ export default function OrgEventCard() {
                 <div className='org-event-contact'>Contact: Mr. B</div>
             </div>
             <UserComments />
-        </div>
+        </section>
     );
 }

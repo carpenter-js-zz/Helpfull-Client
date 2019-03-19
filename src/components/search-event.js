@@ -11,7 +11,7 @@ export default function SearchEvent(props) {
             const linkUrl = `/event/${event.id}`;
             return (
                 <Link key={index} to={linkUrl}>
-                    <div className='card'>
+                    <section className='card'>
                         <img className='search-img' alt='' src={event.imgUrl}></img>
                         <div className='search-column'>
                             <div>
@@ -25,7 +25,7 @@ export default function SearchEvent(props) {
                                 <span><span>Contact us:</span> {event.contact}</span>
                             </div>
                         </div>
-                    </div>
+                    </section>
                 </Link >
             );
         });

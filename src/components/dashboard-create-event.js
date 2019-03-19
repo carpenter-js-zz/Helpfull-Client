@@ -51,10 +51,10 @@ export default function DashboardCreateEvent(props) {
                 <fieldset>
                     <legend>Create an event</legend>
 
-                    <div className='create-event-row'>
+                    <section className='create-event-row'>
                         <label htmlFor='event-name'></label>
                         <input
-                            className = 'event-input'
+                            className='event-input'
                             required
                             type='text'
                             placeholder='Event Name'
@@ -65,12 +65,12 @@ export default function DashboardCreateEvent(props) {
                                 })
                             }
                         />
-                    </div>
+                    </section>
 
-                    <div className='create-event-row'>
+                    <section className='create-event-row'>
                         <label htmlFor='event-description'></label>
                         <input
-                            className = 'event-input'
+                            className='event-input'
                             required
                             type='text-area'
                             rows='5'
@@ -82,12 +82,12 @@ export default function DashboardCreateEvent(props) {
                                 })
                             }
                         />
-                    </div>
-                    <div className='create-event-row'>
+                    </section>
+                    <section className='create-event-row'>
                         <label htmlFor='event-location' >
                         </label>
                         <input
-                            className = 'event-input'
+                            className='event-input'
                             required
                             type='text'
                             placeholder='Location'
@@ -98,11 +98,11 @@ export default function DashboardCreateEvent(props) {
                                 })
                             }
                         />
-                    </div>
-                    <div className='create-event-row'>
+                    </section>
+                    <section className='create-event-row'>
                         <label htmlFor='event-date'></label>
                         <input
-                            className = 'event-input'
+                            className='event-input'
                             required
                             type='text'
                             placeholder='Date'
@@ -113,11 +113,11 @@ export default function DashboardCreateEvent(props) {
                                 })
                             }
                         />
-                    </div>
-                    <div className='create-event-row'>
+                    </section>
+                    <section className='create-event-row'>
                         <label htmlFor='event-contact'></label>
                         <input
-                            className = 'event-input'
+                            className='event-input'
                             required
                             type='text'
                             placeholder='Contact'
@@ -128,12 +128,12 @@ export default function DashboardCreateEvent(props) {
                                 })
                             }
                         />
-                    </div>
+                    </section>
 
-                    <div className='create-event-row'>
+                    <section className='create-event-row'>
                         <label htmlFor='eventImg'></label>
                         <input
-                            className = 'event-input'
+                            className='event-input'
                             type='text'
                             placeholder='Paste Image URL here!'
                             onChange={e =>
@@ -143,7 +143,7 @@ export default function DashboardCreateEvent(props) {
                                 })
                             }
                         />
-                    </div>
+                    </section>
 
                     <div className='submit-cancel-buttons'>
                         <button className='submit'>Submit</button>

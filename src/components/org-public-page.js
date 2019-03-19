@@ -139,7 +139,7 @@ export default function OrgPublicPage(props) {
 
     if (orgs) {
         return (
-            <div className='org-public-page containerB'>
+            <section className='org-public-page containerB'>
 
                 {/* <div className='org-public-content container'> */}
                 <div className='row'>
@@ -171,12 +171,12 @@ export default function OrgPublicPage(props) {
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
         );
     }
     return (
-        <div>
+        <section>
             <p>Loading...</p>
-        </div>
+        </section>
     );
 }
