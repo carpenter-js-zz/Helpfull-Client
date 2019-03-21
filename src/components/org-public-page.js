@@ -10,8 +10,6 @@ import getOrgEvents from "../utils/fetchEvent";
 import { PointMap } from "./map";
 
 export default function OrgPublicPage(props) {
-    // const orgId =  props.location.state.org.id;
-    const [view] = useState(<OrgPublicPageEventList />);
     const [following, setFollowing] = useState(false);
     const [followData, setFollowdata] = useState(null);
     const [orgs, setOrgs] = useState(null);
@@ -26,7 +24,6 @@ export default function OrgPublicPage(props) {
     const fetchEvents = () => {
         getOrgEvents(orgId).then(res => {
             let newList = res.data.map((event, index) => {
-                console.log(event);
                 return (
                     <li key={index}>
                         <a href={`/event/${event.id}`}>{event.name}</a>

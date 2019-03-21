@@ -1,15 +1,12 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import EventCard from "./eventcard";
-// import MeetupCard from "./meetup-card";
 import { API_BASE_URL } from "../config";
 import "../stylesheets/event-list.css";
 
 export default function EventList() {
     const [events, setEvents] = useState(null);
     const [rsvpEvents, setRsvpEvents] = useState(null);
-    // const [rsvpMeetups, setRsvpMeetups] = useState(null);
-    // const [meetups, setMeetups] = useState(null);
     const [location, setLocation] = useState(null);
 
     // get user location

@@ -1,7 +1,5 @@
 import React from "react";
 import EventList from "./event-list";
-import OrganizationList from "./organization-list";
-import RenderUserRole from "./renderuserrole";
 import CreatedOrgs from "./created-organizations";
 import FollowedOrgs from "./followed-organizations";
 

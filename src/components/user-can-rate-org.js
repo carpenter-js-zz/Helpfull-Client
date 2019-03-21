@@ -3,7 +3,6 @@ import axios from "axios";
 import { API_BASE_URL } from "../config";
 
 export default function UserCanRateOrg(props) {
-    const [rating, setRating] = useState(Number(0));
     const [userRating, setUserRating] = useState([]);
     const [avg, setAvg] = useState(0);
     const [length, setLength] = useState(0);
@@ -72,7 +71,6 @@ export default function UserCanRateOrg(props) {
         event.preventDefault();
         let form = event.target;
         let rating = form.rating.value;
-        setRating(rating);
         createRating(rating);
     };
 

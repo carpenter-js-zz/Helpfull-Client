@@ -7,7 +7,6 @@ import "../../stylesheets/login.css";
 import jwt_decode from "jwt-decode";
 
 const Login = () => {
-    const [currentUser, setCurrentUser] = useState(null);
     const [user, setUser] = useState("");
     const [password, setPassword] = useState("");
 
@@ -26,15 +25,12 @@ const Login = () => {
                     return "login";
                 } else {
                     const token = res.data.authToken;
-                    console.log(res.data);
                     localStorage.setItem("jwtToken", token);
                     // Set token to Auth header
                     //setAuthToken(token);
                     // Decode token to get user data
                     const decoded = jwt_decode(token);
                     // Set current user
-                    setCurrentUser(decoded);
-                    let mytoken = localStorage.getItem("jwtToken");
                     return "dashboard";
                 }
             })
