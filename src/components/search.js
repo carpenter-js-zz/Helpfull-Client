@@ -118,8 +118,6 @@ export default function Search(props) {
     if (location === null) {
         return <div />;
     } else {
-        console.log(orgs);
-        console.log(events);
         return (
             <section className='container-search'>
                 <form
@@ -127,9 +125,6 @@ export default function Search(props) {
                     action='submit'
                     className='form-search'>
                     <div className='search-form-container'>
-                        {/* <label className='search-form-child'>
-                            Filter your search by...
-                        </label> */}
                         <select
                             onChange={onSelectChange}
                             className='search-form-child'
