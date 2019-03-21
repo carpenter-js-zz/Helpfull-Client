@@ -40,11 +40,6 @@ nav ul a {
     position: absolute;
 }
 
-body {
-    margin: 0;
-    box-sizing: border-box;
-    font-size: 1.5rem;
-}
 * {
     font-family: "Montserrat", sans-serif;
     /* font-family: 'PT Sans', sans-serif; */
@@ -140,7 +135,7 @@ nav ul {
     flex-wrap: wrap;
 }
 ul li {
-    padding-right: 1.5rem;
+    padding-right: 1.1rem;
     list-style: none;
 }
 
@@ -293,7 +288,7 @@ div > .org-public-text-area {
 
 .text-box-span {
     text-align: center;
-    font-size: 2rem;
+    font-size: 3vw;
     color: #4594d1;
     margin: 2% 5%;
     font-weight: bold;
@@ -342,14 +337,13 @@ button.button-login:hover {
     background: #4594d1;
 }
 footer {
-    font-size: 70%;
     margin: 0 15%;
     color: white;
     padding: 3%;
 }
 
 .sub-footer {
-    font-size: 60%;
+    font-size: 90%;
     padding: 2vh;
     background: rgb(29, 147, 187);
     color: white;
@@ -358,6 +352,7 @@ footer {
 
 @media only screen and (max-width: 900px) {
     /*mobile styles*/
+
     #hamburger {
         display: block;
         visibility: visible;
@@ -379,7 +374,8 @@ footer {
     }
 }
 
-@media only screen and (max-width: 360px) {
+
+@media only screen and (max-width: 650px) {
     .landing-page-form {
         display: flex;
         flex-direction: column;
@@ -389,4 +385,21 @@ footer {
         margin-right: auto;
         margin-left: auto;
     }
-}
+    .details{
+        display:none;
+        font-size: 1em;
+    }
+    button.button-login{
+        width: 60%;
+        height:14vw;
+        font-size:4vw;
+    }
+    button.button-register{
+        width: 60%;
+        height:14vw;
+        font-size:4vw;
+    }
+    .text-box-span{
+        font-size: 5.5vw;
+    }
+  }

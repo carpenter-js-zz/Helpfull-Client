@@ -45,18 +45,28 @@
     margin: 5%;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 800px) {
+    .search-form-container{
+        flex-direction: column;
+        align-items: center;
+    }
     .hero-box {
         display: none !important;
     }
     .container-search {
+        
         margin: 0 2%;
     }
     #search-form-input {
+        width: 50%;
         font-size: 1rem
     }
     #event-search-select {
+        width: 50%;
         font-size: .5em
+    }
+    #search-form-button{
+        width: 50%;
     }
 }
 

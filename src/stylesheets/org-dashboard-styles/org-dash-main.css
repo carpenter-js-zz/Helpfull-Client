@@ -2,19 +2,32 @@
     background: whitesmoke;
     margin: 0 15%;
     display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.profilePic, .org-dashboard-name {
-    padding-left: 5%;
+.org-dashboard-name {
+    text-align: center;
+    width:100%;
+}
+
+.profilePic{
+    width: 50%;
+    height: 40vh;
 }
 
 .org-main-button {
     background: #4594d1;
-    color: black;
+    color: white;
     padding: 5%;
     height: 80px;
-    width: 82%;
+    width: 30vw;
     border-radius: 5%;
+    margin: 0 0 1% 0;
+}
+
+.org-dash-divider{
+    display: flex;
 }
 
 .org-main-button:hover {
@@ -47,4 +60,29 @@
     .profilePic {
         padding-left: 0;
     }
+}
+
+@media only screen and (max-width: 800px) {
+    .orgDash{
+        margin: 0 10%;
+    }
+    .profilePic{
+        width: 90%;
+        height: 40vh;
+    }
+    .org-main-button{
+        height: 70px;
+        width: 60vw;
+    }
+
+.org-dash-divider{
+    display:block;
+    text-align: center;
+}
+.org-main-buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 }

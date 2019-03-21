@@ -22,15 +22,16 @@ export default function OrganizationCard(props) {
     }
 
     return (
+
         <section className="org-card">
-            <Link to={link}>
-                <h3>{props.org.name}</h3>
-            </Link>
+
             <div className="org-card-content">
-                <img src={props.org.imgUrl} alt={props.org.name}></img>
-                <p className='card-details'>Details:</p>
-                <p>{props.org.description}</p>
-                <p>
+                <Link to={link}>
+                    <h3>{props.org.name}</h3>
+                    <img className='dashboard-img' src={props.org.imgUrl} alt={props.org.name}></img>
+                    {/* <p className='card-details'>Details:</p>
+                <p>{props.org.description}</p> */}
+                    {/* <p>
                     <i className='material-icons'>
                         location_on
                     </i>
@@ -41,8 +42,10 @@ export default function OrganizationCard(props) {
                         person
                     </i>
                     {props.org.contact}
-                </p>
+                </p> */}
+                </Link>
             </div>
-        </section>
+        </section >
+
     );
 }

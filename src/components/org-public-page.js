@@ -158,10 +158,9 @@ export default function OrgPublicPage(props) {
                                 <div className='event-public-date'><span>Where:</span> {orgs.location}</div>
                                 <div className='event-public-date'><span>Contact:</span> {orgs.contact}</div>
                                 <div>
-                                    <p>
-                                        <span className='logo-style-two'>Events List: </span>{" "}
-                                        <ul className='reset-ul'>{orgEvents}</ul>
-                                    </p>
+                                    <span className='logo-style-two'>Events List: </span>{" "}
+                                    <ul className='reset-ul'>{orgEvents}</ul>
+
                                 </div>
                                 <div className='button-center'>
                                     {generateFollowButton()}

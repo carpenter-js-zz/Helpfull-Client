@@ -12,15 +12,7 @@ h3:hover {
     color: #4594d1;
 }
 
-p {
-    color: black;
-    text-align: left;
-    font-weight: normal;
-    margin: 1% 0;
-    font-size: 1.5rem;
-    display: flex;
-    align-items: center;
-}
+
 
 .card-details {
     font-size: 18px;
@@ -34,13 +26,16 @@ i.material-icons {
 }
 
 .dashboard-event-card{
-    display:flex;
     border: 2px solid black;
-    margin: 0 0 1% 0;
+    margin: 5% 5% 5% 5%;
     padding: 15px;
+    width:20vw;
+    height: 20vw;
+    overflow-y: scroll;
 }
 
-.dashboard-event-card img{
+
+.dashboard-img{
     padding-right: 20px;
     margin: 0 5% 0 0;
     width: 15vw;
