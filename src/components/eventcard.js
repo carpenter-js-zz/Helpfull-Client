@@ -16,10 +16,11 @@ export default function EventCard(props) {
       </div>
       <div className="event-card-content">
         <h3 className='dashboard-subtitle'>{props.event.name}</h3>
+        <br></br>
         <p>{props.event.date}</p>
       </div>
       <Link to={linkUrl}>
-        <button className='dashboard-button'>View Organization</button>
+        <button className='dashboard-button'>View Event</button>
       </Link>
     </section>
   );
