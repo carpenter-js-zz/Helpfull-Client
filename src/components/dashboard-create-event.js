@@ -147,7 +147,6 @@ export default function DashboardCreateEvent(props) {
 
                     <div className='submit-cancel-buttons'>
                         <button className='submit'>Submit</button>
-                        <button>Cancel</button>
                     </div>
                 </fieldset>
             </form>

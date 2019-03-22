@@ -14,9 +14,20 @@ button {
 }
 
 .submit-cancel-buttons {
+    text-align: center;
 }
 .submit {
-    margin-right: 10%;
+    color: white;
+    margin:0;
+    width: 100%;
+    background-color: #2D79B4;
+    border:1px solid #2D79B4;
+    transition: .5s;
+}
+
+.submit:hover {
+    color: #2D79B4;
+    background-color: white;
 }
 
 /* styling for form input areas */
