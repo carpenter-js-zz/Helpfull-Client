@@ -26,49 +26,44 @@ const App = () => {
             <div className='App'>
                 <NavBar />
                 <div className="App-min-height">
-                {/* <OrganizationList /> */}
-                <Switch>
-                    <Route exact path='/' component={LandingPage} />
-                    <Route
-                        exact
-                        path='/createorgform'
-                        component={CreateOrgForm}
-                    />
-                    <Route
-                        exact
-                        path='/followedorgs'
-                        component={FollowedOrgs}
-                    />
-                    <Route exact path='/register' component={Register} />
-                    <Route exact path='/login' component={Login} />
-                    <Route exact path='/dashboard' component={UserDashboard} />
-                    <Route exact path='/search' component={Search} />
-                    {/* <Route exact path="/organization" component={OrgPublicPage} /> */}
-                    <Route exact path='/event/:eventId' component={EventPage} />
-                    {/* <Route
+                    {/* <OrganizationList /> */}
+                    <Switch>
+                        <Route exact path='/' component={LandingPage} />
+                        <Route
+                            exact
+                            path='/createorgform'
+                            component={CreateOrgForm}
+                        />
+                        <Route exact path='/register' component={Register} />
+                        <Route exact path='/login' component={Login} />
+                        <Route exact path='/dashboard' component={UserDashboard} />
+                        <Route exact path='/search' component={Search} />
+                        {/* <Route exact path="/organization" component={OrgPublicPage} /> */}
+                        <Route exact path='/event/:eventId' component={EventPage} />
+                        {/* <Route
                         exact
                         path='/meetup/:eventId'
                         component={MeetupPage}
                     /> */}
-                    {/* <Route
+                        {/* <Route
                         exact
                         path='/create-meetup'
                         component={CreateMeetup}
                     /> */}
-                    <Route
-                        exact
-                        path='/organization/:id'
-                        component={OrgPublicPage}
-                    />
-                    <Route exact path='/createdorgs' component={CreatedOrgs} />
-                    <Route
-                        exact
-                        path='/orgdashboard/:id'
-                        component={OrganizationDashboard}
-                    />
-                    <Route exact path='/events' component={EventList} />
-                    <Route component={ErrorPage} />
-                </Switch>
+                        <Route
+                            exact
+                            path='/organization/:id'
+                            component={OrgPublicPage}
+                        />
+                        <Route exact path='/createdorgs' component={CreatedOrgs} />
+                        <Route
+                            exact
+                            path='/orgdashboard/:id'
+                            component={OrganizationDashboard}
+                        />
+                        <Route exact path='/events' component={EventList} />
+                        <Route component={ErrorPage} />
+                    </Switch>
                 </div>
                 <Footer />
             </div>

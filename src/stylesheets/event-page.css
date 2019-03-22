@@ -23,7 +23,7 @@
 }
 
 .event-name{
-    color: orange;
+    color: black;
 }
 
 button.event-public-rsvp-button {
@@ -34,7 +34,7 @@ button.event-public-rsvp-button {
     width: 16rem;
 }
 button.event-public-rsvp-button:hover {
-    background: orange;
+    background: black;
     transition: 0.5s;
 }
 
@@ -43,6 +43,11 @@ button.event-public-rsvp-button:hover {
     height:7rem;
 }
 
-.event-public-user-comments{
-   
+@media only screen and (max-width: 900px) {
+    button.event-public-rsvp-button{
+        width: 100%;
+    } 
+    .event-public-comment{
+        width:100%;
+    }
 }

@@ -1,35 +1,30 @@
 
 @media only screen and (min-width: 900px) {
 .card{
-    border: orange 2px solid;
+    border: solid 1px rgba(0, 0, 0, 0.15);
     color: black;
     padding: 1vw;
-    margin-bottom: 1vh;
     display:flex;
     flex-direction: row;
 }
 
 .search-title{
     font-size: 5vh;
-    color: orange;
+    color: black;
     display: flex;
-    justify-content: center;
 }
 
 .search-info{
-    display: flex;
-    flex-direction: column;
 }
 
 .search-info span span{
-    color: orange;
+    color: black;
 }
 
 .search-column{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    
 }
 
 img.search-img{
@@ -37,18 +32,9 @@ img.search-img{
     height: 20vw;
     margin-right: 3vw;
 }
-.customHr{
-    margin: auto;
-    border-radius: 50%;
-    background-color: orange;
-    height:5px;
-    width: 30vw;
-    margin-bottom: 1vw;
-}
 
 .dashHr{
-    border-radius: 50%;
-    background-color: orange;
+    background-color: rgba(0, 0, 0, 0.185);
     height:5px;
     width: 100%;
     margin-bottom: 1vw;
@@ -58,12 +44,11 @@ img.search-img{
 
 @media only screen and (max-width: 900px) {
     .card{
+        border: solid 1px rgba(0, 0, 0, 0.15);
         color: black;
         padding: 1vw;
-        margin-bottom: 1vh;
         display:flex;
         flex-direction: column;
-        align-items: center;
     }
     img.search-img{
         width: 20vw;
@@ -73,9 +58,7 @@ img.search-img{
 
     .search-title{
         font-size: 5vw;
-        color: orange;
-        display: flex;
-        justify-content: center;
+        color: black;
     }
     .search-description{
         display:none;
@@ -83,10 +66,10 @@ img.search-img{
     .search-info{
         display: flex;
         flex-direction: column;
-        font-size: 5vw;
+        font-size: 4vw;
     }
     .search-info span span{
-        color: orange;
+        color: black;
     }
     
 }

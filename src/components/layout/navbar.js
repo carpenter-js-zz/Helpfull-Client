@@ -19,15 +19,6 @@ const NavBar = props => {
                     </a>
                 </li>
 
-                {/* <li>
-                    <a
-                        href='#events'
-                        className='waves-effect waves-teal'
-                        onClick={() => props.history.push("/events")}>
-                        My Events
-                    </a>
-                </li> */}
-
                 <li>
                     <a
                         className='nav-tag'
@@ -37,32 +28,6 @@ const NavBar = props => {
                     </a>
                 </li>
 
-                {/* <li>
-                    <a
-                        href='#meetup'
-                        className='waves-effect waves-teal'
-                        onClick={() => props.history.push("/create-meetup")}>
-                        Create Meetup
-                    </a>
-                </li> */}
-
-                <li>
-                    <a
-                        className='nav-tag'
-                        href='/createdorgs'
-                        onClick={() => props.history.push("/createdorgs")}>
-                        My Orgs
-                    </a>
-                </li>
-
-                <li>
-                    <a
-                        className='nav-tag'
-                        href='#followedorganizations'
-                        onClick={() => props.history.push("/followedorgs")}>
-                        Followed Orgs
-                    </a>
-                </li>
                 <li>
                     <a
                         className='nav-tag'
@@ -122,29 +87,6 @@ const NavBar = props => {
                     {sideNav}
                 </header>
             </section>
-            {/* <div className='navbar-fixed'>
-                <nav className='white' role='navigation'>
-                    <div className='container'>
-                        <div className='nav-wrapper'>
-                            <div className='logo-container'>
-                                <a href='/' className=''>
-                                    <img
-                                        className='logo hide-on-med-and-down'
-                                        id='logo'
-                                        src='/icon.png'
-                                        alt='helpful'
-                                    />
-                                </a>
-                                <a href='/' className='brand-logo black-text'>
-                                    Helpful
-                                </a>
-                            </div>
-                            {navRight}
-                        </div>
-                    </div>
-                    {sideNav}
-                </nav>
-            </div> */}
 
             <ul id='mySidenav' className={navClass}>
 
@@ -168,47 +110,12 @@ const NavBar = props => {
                     <div className='divider' />
                 </li>
                 <li>
-                    <div className='divider' />
-                </li>
-                <li>
                     <a
                         href='#createorganization'
                         // className='waves-effect'
                         onClick={() => props.history.push("/createorgform")}>
                         <i className='material-icons black-text'>create</i>
                         Create Org
-                    </a>
-                </li>
-                <li>
-                    <div className='divider' />
-                </li>
-                <li>
-                    <a
-                        href='/createdorgs'
-                        onClick={() => props.history.push("/createdorgs")}>
-                        <i className='material-icons'>subscriptions</i>
-                        My Orgs
-                    </a>
-                </li>
-                {/* <li>
-                    <a
-                        href='#createmeetup'
-                        className='waves-effect'
-                        onClick={() => props.history.push("/create-meetup")}>
-                        <i className='material-icons black-text'>create</i>
-                        Create Meetup
-                    </a>
-                </li> */}
-                <li>
-                    <div className='divider' />
-                </li>
-                <li>
-                    <a
-                        href='#followedorganizations'
-                        // className='waves-effect'
-                        onClick={() => props.history.push("/followedorgs")}>
-                        <i className='material-icons'>subscriptions</i>
-                        Followed Orgs
                     </a>
                 </li>
                 <li>

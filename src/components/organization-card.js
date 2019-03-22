@@ -27,8 +27,11 @@ export default function OrganizationCard(props) {
 
             <div className="org-card-content">
                 <Link to={link}>
+                    <div>
+                        <img className='dashboard-img' src={props.org.imgUrl} alt={props.org.name}></img>
+                    </div>
                     <h3>{props.org.name}</h3>
-                    <img className='dashboard-img' src={props.org.imgUrl} alt={props.org.name}></img>
+
                     {/* <p className='card-details'>Details:</p>
                 <p>{props.org.description}</p> */}
                     {/* <p>

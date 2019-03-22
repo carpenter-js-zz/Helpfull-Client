@@ -31,7 +31,7 @@
 }
 
 .org-main-button:hover {
-    background: orange;
+    background: black;
     transition: 1s;
 }
 

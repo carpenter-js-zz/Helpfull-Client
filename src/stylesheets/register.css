@@ -39,6 +39,6 @@
 }
 
 .registration-form-submit-button:hover{
-    background: orange;
+    background: black;
     transition: 0.5s;
 }

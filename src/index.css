@@ -78,7 +78,7 @@ header {
     color: red;
 }
 .logo-style-two {
-    color: orange;
+    color: black;
 }
 
 /*********NAV*******************************************/
@@ -125,7 +125,7 @@ header {
 }
 
 nav {
-    color: orange;
+    color: black;
     font-weight: bold;
     margin-left: auto;
 }
@@ -141,7 +141,7 @@ ul li {
 
 a{
     text-decoration: none;
-    color: orange;
+    color: black;
 }
 
 nav a:hover {
@@ -160,17 +160,8 @@ nav a:hover {
 .text-center {
     text-align: center;
 }
-@media only screen and (min-width: 601px) {
-    .containerB {
-        width: 85%;
-    }
-}
 
-@media only screen and (min-width: 993px) {
-    .containerB {
-        width: 70%;
-    }
-}
+
 
 .responsive-img {
     width: 80%;
@@ -236,7 +227,7 @@ nav a:hover {
     /* width: 8rem; */
     /* padding: 3%; */
     /* border-radius: 5%; */
-    background: orange;
+    background: black;
     /* margin: 5% auto; */
     font-weight: bold;
 }
@@ -307,7 +298,7 @@ div > .org-public-text-area {
 }
 
 button.button-register {
-    color: orange;
+    color: black;
     background: #4594d1;
     border: none;
     font-size: 2vw;
@@ -315,18 +306,18 @@ button.button-register {
 }
 button.button-register:hover {
     color: #4594d1;
-    background: orange;
+    background: black;
     transition: 1s;
 }
 button.button-login {
     color: #4594d1;
-    background: orange;
+    background: black;
     border: none;
     font-size: 2vw;
     width: 15vw;
 }
 button.button-login:hover {
-    color: orange;
+    color: black;
     background: #4594d1;
     transition: 1s;
 }
@@ -339,7 +330,7 @@ button.button-login:hover {
 footer {
     margin: 0 15%;
     color: white;
-    padding: 3%;
+    padding: 2%;
 }
 
 .sub-footer {

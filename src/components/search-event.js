@@ -12,7 +12,6 @@ export default function SearchEvent(props) {
             return (
                 <Link key={index} to={linkUrl}>
                     <section className='card'>
-                        <img className='search-img' alt='' src={event.imgUrl}></img>
                         <div className='search-column'>
                             <div>
                                 <span className='search-title'>{event.name}</span>
@@ -20,9 +19,9 @@ export default function SearchEvent(props) {
                             </div>
                             <div className='customHr'></div>
                             <div className='search-info'>
-                                <span><span>When:</span> {event.date}</span>
-                                <span><span>Where:</span> {event.location}</span>
-                                <span><span>Contact us:</span> {event.contact}</span>
+                                <div><span>When:</span> {event.date}</div>
+                                <div><span>Where:</span> {event.location}</div>
+                                <div><span>Contact us:</span> {event.contact}</div>
                             </div>
                         </div>
                     </section>

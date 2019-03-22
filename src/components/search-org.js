@@ -11,7 +11,6 @@ export default function SearchOrg(props) {
             return (
                 <Link key={index} to={linkUrl}>
                     <section className='card'>
-                        <img className='search-img' alt='' src={org.imgUrl}></img>
                         <div className='search-column'>
                             <div>
                                 <span className='search-title'>{org.name}</span>
@@ -19,8 +18,8 @@ export default function SearchOrg(props) {
                             </div>
                             <div className='customHr'></div>
                             <div className='search-info'>
-                                <span><span>Where:</span> {org.location}</span>
-                                <span><span>Contact us:</span> {org.contact}</span>
+                                <div><span>Where:</span> {org.location}</div>
+                                <div><span>Contact us:</span> {org.contact}</div>
                             </div>
                         </div>
                     </section>

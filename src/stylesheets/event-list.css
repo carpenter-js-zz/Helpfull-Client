@@ -1,6 +1,4 @@
 .event-public-container {
-    margin-left: 15%;
-    margin-right: 15%;
     background: whitesmoke;
     padding: 10px;
     border-radius: 20px;
@@ -17,29 +15,36 @@
 }
 
 .event-public-date span{
-    color: orange;
+    color: black;
 }
 
 .event-list{
     display: flex;
-    justify-content: space-evenly;
 }
 
-.event-list a li{
-    
+.event-list-a{
+    margin:1%;
 }
 
 @media only screen and (max-width: 900px) {
     /*mobile styles*/
+    .event-public-container {
+        margin: 3%;
+    }
     .dashboard-img{
         width:100%;
         height: 100%;
     }
+    
     .dashboard-event-card{
         margin: auto auto 1% auto;
-        width:50vw;
+        width:70vw;
+
     }
     .event-list{
         display: block;
+    }
+    .event-public-description{
+    margin: 0;
     }
 }

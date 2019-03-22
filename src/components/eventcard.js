@@ -10,7 +10,7 @@ export default function EventCard(props) {
   }
 
   return (
-    <Link to={linkUrl}>
+    <Link className='event-list-a' to={linkUrl}>
       <section className="dashboard-event-card">
         <div>
           <img className='dashboard-img' src={props.event.imgUrl} alt={props.event.name}></img>
