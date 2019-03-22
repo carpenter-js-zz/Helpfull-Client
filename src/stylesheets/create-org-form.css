@@ -3,7 +3,6 @@
     flex-direction: column;
     padding: 3%;
     background: whitesmoke;
-    font-size: 75%;
 }
 
 h1 {
@@ -14,16 +13,17 @@ h1 {
     padding: 10px;
     width: 8rem;
     margin: 5% auto;
-    background: white;
+    background: #2D79B4;
     border: 1px solid #2D79B4;
+    color:white;
     border-radius: 5%;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 1rem;
 }
 .create-org-form-button:hover {
-    background: #2D79B4;
-    color: white;
+    background: white;
+    color: #2D79B4;
     transition: 0.5s;
 }
 

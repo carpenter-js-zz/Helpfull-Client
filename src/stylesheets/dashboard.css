@@ -7,7 +7,40 @@
     background: whitesmoke;
 }
 
+.dashboard-link{
+  color: red;
+}
+
+.dashboard-subtitle{
+  height:5vw;
+}
+
+.dashboard-button{
+  margin: 0;
+  height: 5vw;
+  width: 100%;
+  border: 1px solid #2D79B4;
+  color: white;
+  background-color: #2D79B4;
+  border-radius: 0;
+  transition: .4s;
+  font-size: 1.5vw;
+}
+
+.dashboard-button:hover{
+  color: #2D79B4;
+  background-color: white;
+  cursor:pointer;
+}
+
 @media only screen and (max-width: 900px) {
+  .dashboard-subtitle{
+    height:10vw;
+  }
+    .dashboard-button{
+      font-size: 4vw;   
+      height:10vw; 
+    }
     .dashboard-container {
       margin: 0;
     }

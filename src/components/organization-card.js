@@ -26,28 +26,15 @@ export default function OrganizationCard(props) {
         <section className="org-card">
 
             <div className="org-card-content">
-                <Link to={link}>
-                    <div>
-                        <img className='dashboard-img' src={props.org.imgUrl} alt={props.org.name}></img>
-                    </div>
-                    <h3>{props.org.name}</h3>
 
-                    {/* <p className='card-details'>Details:</p>
-                <p>{props.org.description}</p> */}
-                    {/* <p>
-                    <i className='material-icons'>
-                        location_on
-                    </i>
-                    {props.org.location}
-                </p>
-                <p>
-                    <i className='material-icons'>
-                        person
-                    </i>
-                    {props.org.contact}
-                </p> */}
-                </Link>
+                <div>
+                    <img className='dashboard-img' src={props.org.imgUrl} alt={props.org.name}></img>
+                </div>
+                <h3 className='dashboard-subtitle'>{props.org.name}</h3>
             </div>
+            <Link to={link}>
+                <button className='dashboard-button'>View Organization</button>
+            </Link>
         </section >
 
     );

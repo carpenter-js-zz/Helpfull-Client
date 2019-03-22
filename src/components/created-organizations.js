@@ -54,20 +54,17 @@ export default function CreatedOrgs(props) {
                     Click here to create an organization and start hosting
                     events
                 </p>
-                <Link to='/createorgform'> Start your own organization!</Link>
+                <Link className='dashboard-link' to='/createorgform'> Start your own organization!</Link>
             </section>
         );
     } else {
         console.log(orgs);
         return (
-            <div>
-                <section className='created-orgs-container'>
-                    <h2 className='dashboard-title'>My Organizations</h2>
-                    <div>{orgCards}</div>
-                </section>
-            </div>
+            <section className='created-orgs-container'>
+                <h2 className='dashboard-title'>My Organizations</h2>
+                <div>{orgCards}</div>
+            </section>
         );
     }
-
 
 }

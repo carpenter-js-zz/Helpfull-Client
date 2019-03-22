@@ -43,7 +43,7 @@ export default function FollowedOrgs(props) {
             <section className='followed-orgs-container'>
                 <h2>Followed Organizations</h2>
                 <p>Looks like you haven't followed any organizations yet...</p>
-                <Link to='/search'> Search for Organizations near you!</Link>
+                <Link className='dashboard-link' to='/search'> Search for Organizations near you!</Link>
             </section>
         );
     }

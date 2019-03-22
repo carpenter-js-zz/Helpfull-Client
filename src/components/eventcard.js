@@ -10,31 +10,17 @@ export default function EventCard(props) {
   }
 
   return (
-    <Link className='event-list-a' to={linkUrl}>
-      <section className="dashboard-event-card">
-        <div>
-          <img className='dashboard-img' src={props.event.imgUrl} alt={props.event.name}></img>
-        </div>
-        <div className="event-card-content">
-          <h3>{props.event.name}</h3>
-          <p>{props.event.date}</p>
-          {/* <p className='card-details'>Details:</p> */}
-          {/* <p>
-            {props.event.description}</p> */}
-          {/* <p>
-            <i className='material-icons'>
-            location_on
-            </i>
-            {props.event.location}
-          </p>
-          <p>
-            <i className='material-icons'>
-              person
-            </i>
-            {props.event.contact}
-          </p> */}
-        </div>
-      </section>
-    </Link>
+    <section className="dashboard-event-card">
+      <div>
+        <img className='dashboard-img' src={props.event.imgUrl} alt={props.event.name}></img>
+      </div>
+      <div className="event-card-content">
+        <h3 className='dashboard-subtitle'>{props.event.name}</h3>
+        <p>{props.event.date}</p>
+      </div>
+      <Link to={linkUrl}>
+        <button className='dashboard-button'>View Organization</button>
+      </Link>
+    </section>
   );
 }
