@@ -1,5 +1,5 @@
 h3 {
-    /* color: #4594d1; */
+    /* color: #2D79B4; */
     color: black;
     margin-bottom: 0;
 }
@@ -9,7 +9,7 @@ h2 {
 }
 
 h3:hover {
-    color: #4594d1;
+    color: #2D79B4;
 }
 
 .card-details {

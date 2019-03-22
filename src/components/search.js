@@ -30,7 +30,6 @@ export default function Search(props) {
     };
 
     const onSelectChange = e => {
-        console.log(e.target.value);
         setType(e.target.value);
     };
 
@@ -38,7 +37,6 @@ export default function Search(props) {
         getEvent();
         getOrg();
         e.preventDefault();
-        console.log(type);
         if (type === "organizations") {
             setComponent(
                 <SearchOrg
@@ -63,7 +61,6 @@ export default function Search(props) {
 
     const onChange = e => {
         e.preventDefault();
-        console.log(e.target.value);
         setDistance(e.target.value);
     };
 
@@ -103,7 +100,6 @@ export default function Search(props) {
                     ),
                 },
             });
-            console.log(getOrgs.data);
             setOrgs(getOrgs.data);
         }
     };

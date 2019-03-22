@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
+import "./stylesheets/reset.css";
 import NavBar from "./components/layout/navbar";
 import LandingPage from "./components/layout/landing";
 import Register from "./components/auth/Register";
@@ -11,7 +12,6 @@ import OrgPublicPage from "./components/org-public-page";
 import EventPage from "./components/event-page";
 import Footer from "./components/layout/footer";
 import CreateOrgForm from "./components/create-org-form";
-import FollowedOrgs from "./components/followed-organizations";
 import ErrorPage from "./components/layout/errorPage";
 // import CreateMeetup from "./components/create-meetup";
 import CreatedOrgs from "./components/created-organizations";

@@ -4,7 +4,6 @@
 }
 */
 .event-container {  
-    margin: 5%;
 }
 
 .organization-container {
@@ -29,7 +28,7 @@
 button.event-public-rsvp-button {
     color: white;
     margin: 5% auto;
-    background-color: #4594d1;
+    background-color: #2D79B4;
     border: none;
     width: 16rem;
 }

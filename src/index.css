@@ -1,34 +1,4 @@
-/* old stuff, commented out for safety */
-/* body {
-    margin: 0;
-    padding: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
-        "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
-        "Helvetica Neue", sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    display: block;
-}
 
-code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-        monospace;
-}
-
-#logo {
-    height: 3.5rem;
-    width: 3.5rem;
-    overflow: hidden;
-    position: absolute;
-}
-
-.brand-logo {
-    left: 50px;
-}
-
-nav ul a {
-    color: teal !important;
-}*/
 
 /* END CSS RESET */
 
@@ -42,9 +12,6 @@ nav ul a {
 
 * {
     font-family: "Montserrat", sans-serif;
-    /* font-family: 'PT Sans', sans-serif; */
-    /* font-family: 'PT Sans Narrow', sans-serif; */
-    /* font-family: 'Source Sans Pro', sans-serif; */
 }
 .container,
 .footer-container,
@@ -61,7 +28,8 @@ nav ul a {
 
 /****************HEADER************************************/
 .header-container {
-    border-bottom: 3px solid #e0e2e2;
+    background-color:#2D79B4;
+    border-bottom: 3px solid rgb(27, 137, 173);
 }
 header {
     margin: 0 15%;
@@ -70,7 +38,7 @@ header {
 }
 
 .logo {
-    font-size: 90%;
+    font-size: 110%;
     padding-right: 20%;
     align-self: center;
 }
@@ -104,7 +72,7 @@ header {
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
     right: 0;
-    background-color: #4594d1; /* Black*/
+    background-color: #2D79B4; /* Black*/
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
@@ -141,7 +109,7 @@ ul li {
 
 a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 nav a:hover {
@@ -280,7 +248,7 @@ div > .org-public-text-area {
 .text-box-span {
     text-align: center;
     font-size: 3vw;
-    color: #4594d1;
+    color: #2D79B4;
     margin: 2% 5%;
     font-weight: bold;
 }
@@ -298,34 +266,34 @@ div > .org-public-text-area {
 }
 
 button.button-register {
-    color: black;
-    background: #4594d1;
+    color: #fff;
+    background: #2D79B4;
     border: none;
     font-size: 2vw;
     width: 15vw;
 }
 button.button-register:hover {
-    color: #4594d1;
-    background: black;
+    color: #2D79B4;
+    background: white;
     transition: 1s;
 }
 button.button-login {
-    color: #4594d1;
-    background: black;
-    border: none;
+    color: #2D79B4;
+    background: white;
+    border: 1px solid #2D79B4;
     font-size: 2vw;
     width: 15vw;
 }
 button.button-login:hover {
-    color: black;
-    background: #4594d1;
+    color: #fff;
+    background: #2D79B4;
     transition: 1s;
 }
 
 /*****FOOTER************************************/
 
 .footer-container {
-    background: #4594d1;
+    background: #2D79B4;
 }
 footer {
     margin: 0 15%;
