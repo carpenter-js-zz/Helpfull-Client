@@ -21,13 +21,12 @@
     color: white;
     padding: 5%;
     height: 80px;
-    width: 30vw;
     border-radius: 5%;
-    margin: 0 0 1% 0;
+    margin: 1%;
 }
 
 .org-dash-divider{
-    display: flex;
+    text-align: center;
 }
 
 .org-main-button:hover {
