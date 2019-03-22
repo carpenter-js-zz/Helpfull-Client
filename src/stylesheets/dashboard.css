@@ -11,6 +11,9 @@
     .dashboard-container {
       margin: 0;
     }
+    .dashboard-title{
+      text-align: center;
+    }
 }
 
 @media only screen and (max-width: 600px) {

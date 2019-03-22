@@ -41,6 +41,12 @@ img.search-img{
     margin-bottom: 1vw;
 }
 
+.search-description{
+    stroke: transparent;
+    fill: rgba(0,0,0,.54);
+    color: rgba(0,0,0,.54);
+}
+
 }
 
 @media only screen and (max-width: 900px) {
@@ -64,6 +70,7 @@ img.search-img{
     }
     .search-description{
         display:none;
+        
     }
     .search-info{
         display: flex;

@@ -41,7 +41,7 @@
 #search-form-button:hover{
     color: #2D79B4;
     background: #fff;
-    border:
+    border: 1px solid #2D79B4;
 }
 
 .blocker {

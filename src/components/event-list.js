@@ -113,7 +113,7 @@ export default function EventList() {
     return (
         <section className='event-container'>
             <div className='rsvp-events'>
-                <h2>Upcoming Events</h2>
+                <h2 className='dashboard-title'>Upcoming Events</h2>
                 <div className='event-list'>
                     {localEventCardList}
                     {rsvpEventCardList}
