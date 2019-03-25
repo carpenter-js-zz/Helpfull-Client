@@ -96,13 +96,18 @@ const NavBar = props => {
                         setNavClass("false");
                     }}
                 >
-                    &times;</a>
+                    &times;
+                </a>
 
                 <li>
                     <a
                         href='#dashboard'
                         // className='waves-effect waves-teal'
-                        onClick={() => props.history.push("/dashboard")}>
+                        onClick={() => {
+                            props.history.push("/dashboard");
+                            setNavClass("false");
+                        }}
+                    >
                         <i className='material-icons'>dashboard</i>Dashboard
                     </a>
                 </li>
@@ -113,7 +118,11 @@ const NavBar = props => {
                     <a
                         href='#createorganization'
                         // className='waves-effect'
-                        onClick={() => props.history.push("/createorgform")}>
+                        onClick={() => {
+                            props.history.push("/createorgform")
+                            setNavClass("false");
+                        }}
+                    >
                         <i className='material-icons black-text'>create</i>
                         Create Org
                     </a>
@@ -125,7 +134,11 @@ const NavBar = props => {
                     <a
                         href='#search'
                         // className='waves-effect'
-                        onClick={() => props.history.push("/search")}>
+                        onClick={() => {
+                            props.history.push("/search")
+                            setNavClass("false");
+                        }}
+                    >
                         <i className='material-icons'>search</i>Search Tool
                     </a>
                 </li>
@@ -136,7 +149,11 @@ const NavBar = props => {
                     <a
                         href='#logout'
                         // className='waves-effect'
-                        onClick={() => logoutUser()}>
+                        onClick={() => {
+                            logoutUser()
+                            setNavClass("false");
+                        }}
+                    >
                         <i className='material-icons'>power_settings_new</i>
                         Logout
                     </a>
