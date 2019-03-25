@@ -41,7 +41,31 @@
     padding: 5%;    
 }
 
+@media only screen and (max-width: 800px) {
+    .orgDash{
+        margin: 0 10%;
+    }
+    .profilePic{
+        width: 90%;
+        height: 40vh;
+    }
+    .org-main-button{
+        height: 70px;
+        width: 60vw;
+        font-size: 2vw;
+    }
 
+.org-dash-divider{
+    display:block;
+    text-align: center;
+}
+.org-main-buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+}
 
 @media only screen and (max-width: 360px) {
     .org-dash-side-bar {
@@ -60,29 +84,8 @@
     .profilePic {
         padding-left: 0;
     }
-}
 
-@media only screen and (max-width: 800px) {
-    .orgDash{
-        margin: 0 10%;
+    .org-main-button {
+        font-size: 3vw;
     }
-    .profilePic{
-        width: 90%;
-        height: 40vh;
-    }
-    .org-main-button{
-        height: 70px;
-        width: 60vw;
-    }
-
-.org-dash-divider{
-    display:block;
-    text-align: center;
-}
-.org-main-buttons{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 }

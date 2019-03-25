@@ -46,7 +46,7 @@ const Login = () => {
 
                 <section className='login-flex'>
                     <div className=''>
-                        <Link to='/' className=''>
+                        <Link to='/' className='back-to-home'>
                             <i className='material-icons left'>keyboard_backspace</i>
                             Back to home
                             </Link>
@@ -56,6 +56,10 @@ const Login = () => {
                                 Don't have an account?{" "}
                                 <Link className="register" to='/register'>Register</Link>
                             </p>
+
+                            <p>Or try Helpfull with a demo account!</p>
+                            <p>Usename: demo</p>
+                            <p>Password: password12</p>
                         </div>
                         <form
                             className='login-form'

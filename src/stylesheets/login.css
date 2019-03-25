@@ -17,8 +17,21 @@
     /* padding: 5%; */
 }
 
+.back-to-home {
+    color: #2D79B4;
+}
+
+.back-to-home:hover {
+    color: rgba(224, 191, 0, 0.877);
+}
+
 .register {
     margin-left: 5px;
+    color: #2D79B4;
+}
+
+.register:hover {
+    color: rgba(224, 191, 0, 0.877);
 }
 
 .login-flex{
