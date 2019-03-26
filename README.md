@@ -13,15 +13,15 @@ Helpful brings community organizations and volunteers together. If you want to m
 # Screenshots
 
 #### Landing page
-[Imgur](https://i.imgur.com/YY5JxId.png)
+![alt text](https://i.imgur.com/YY5JxId.png)
 
 #### Dashboard
 
-[Imgur](https://i.imgur.com/FWYZgsW.png)
+![alt text](https://i.imgur.com/FWYZgsW.png)
 
 #### Public Event
 
-[Imgur](https://i.imgur.com/L5UJYnh.png)
+![alt text](https://i.imgur.com/L5UJYnh.png)
 
 
 ## MVP (v.1.0.0)
